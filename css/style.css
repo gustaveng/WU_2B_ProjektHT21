@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#shader {
+    height: 100%;
+    width: 100vw;
+    background: rgba(41, 31, 31, 0.5)
+}
+#background {
+ background: url(../img/william-moreland-auijD19Byq8-unsplash.jpg)no-repeat;
+ background-size: 100vw auto;
+ height: 300vh;
+ width: 100vw; 
+}
+nav {
+    background: linear-gradient(rgba(41, 31, 31, 1), rgba(41, 31, 31, 0));
+    display: flex;
+    justify-content:right;
+    width: 100%;    
+}
+h1 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+}
+h2 {
+    color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+}
+header {
+    background: rgba(41, 31, 31, 0.5);
+    margin-top: 100px;
+    height: 125px;
+    width: 550px;
+}
+
+
+
+#spacer {
+    margin-right: 50px;
+}
+ul {
+    color: white;
+    display: flex;
+    float: right;
+}
+ul li {
+    margin: 30px;
+}
+ul li:hover {
+    color: black;
+}
+
+.wrapper {
+    height: 300vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "info bil1"
+    "goal bild2";
+    
+}  
+#info {
+    display: grid;
+    grid-area: info;
+    color: white;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#bild1 {
+    background: url(../img/mathias-katz-usEpJ_BrN2k-unsplash.jpg);
+    background-size: 300px auto;
+    grid-area: bild1;
+    width: 150px;
+}
+
