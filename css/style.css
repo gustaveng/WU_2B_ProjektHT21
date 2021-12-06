@@ -5,7 +5,7 @@
 #shader {
     height: 100%;
     width: 100vw;
-    background: rgba(41, 31, 31, 0.7)
+    background: rgba(41, 31, 31, 0.6)
 }
 #background {
  background: url(../img/philipp-kammerer-Xm8XD2b9AUs-unsplash.jpg)no-repeat;
@@ -31,15 +31,15 @@ h2 {
     color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin-left: 190px;
-
 }
 header {
     background: rgba(41, 31, 31, 0.5);
     margin-top: 100px;
     height: 170px;
     width: 700px;
-    margin-left: 290px;
+    margin: auto;
     border-radius: 10px;
+    margin-top: 200px;
 }
 #meny {
     width: 125px;
@@ -52,8 +52,8 @@ header {
 #textknapp {
     color: black;
     position: absolute;
-    margin-left: 40px;
-    margin-top: 5px;
+    margin-left: 45px;
+    margin-top: 8px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  #textknapp:hover {
@@ -72,7 +72,7 @@ ul li {
     margin: 30px;
 }
 ul li a:hover {
-    color: black;
+    color: gray;
 }
 
 .wrapper {
@@ -109,12 +109,33 @@ a {
 
 /* Här börjar meny.html */
 
-#menyBackground {
-    background: url(../img/max-kukurudziak-fzfDRXUya-s-unsplash.jpg)no-repeat;
-    background-size: 100vw auto;
-    height: 200vh;
-    width: 100vw; 
+#shader1 {
+    height: 100%;
+    width: 100%;
+    background: rgba(216, 221, 220, 0.6)
 }
+
+#menyBackground {
+    background: url(../img/neonbrand-y3RFJh6-r0Q-unsplash.jpg)no-repeat;
+    background-size: 100vw auto;
+    background-position: 20% 90%;
+    height: 200vh;
+    width: 100%; 
+}
+.navbar {
+    background: linear-gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 0));
+    justify-content:space-evenly;
+    width: 100%;    
+    display: inline-block;
+}
+.navbar:hover {
+    color:black;
+}
+#li1 {
+    margin-left: 50px
+}
+
+
 .menyWrapper {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -125,40 +146,72 @@ a {
     "t3 i3";
 }
 .textItems {
-    background: blue;
+    background: Black;
     height: 350px;
-    width: 275px;
     margin: 5px;
+    margin-left: 45%;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 65px;
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+    border-radius: 10px;
+    padding: 10px;
 }
 .menyItems {
-    background: pink;
     height: 350px;
-    width: 275px;
-    margin: 5px
+    width: 500px;
+    margin: 5px;
+    margin-top: 50px;
 }
 #text1 {
     grid-area: t1;
+    width: 300px;
 }
 #text2 {
     grid-area: t2;
+    width: 350px;
 }
 #text3 {
     grid-area: t3;
+    width: 400px;
 }
 #item1 {
     grid-area: i1;
-    background: url(../img/eiliv-sonas-aceron-DNQLBdGdld0-unsplash.jpg)no-repeat;
-    background-size: 300px cover;
+    background: url(../img/iulia-buta-8GNkoWJTchc-unsplash.jpg)no-repeat;
+    background-size: 500px auto;
+    background-position: 20% 50%;
     height: 350px;
-    width: auto;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 5%;
 }
 #item2 {
     grid-area: i2;
+    background: url(../img/vitor-monthay-7hkQBa2PhKY-unsplash.jpg)no-repeat;
+    background-size: 500px auto;
+    background-position: 20% 30%;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 10%;
 }
 #item3 {
     grid-area: i3;
+    background: url(../img/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg)no-repeat;
+    background-size: 500px auto;
+    background-position: 20% 50%;
+    height: 350px;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 15%;
 }
-
+p {
+    font-size: 20px;
+}
+h3 {
+    margin: auto;
+}
 
 /* Här Börjar Kontakt.html */
 
