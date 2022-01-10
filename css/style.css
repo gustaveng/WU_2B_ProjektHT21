@@ -8,14 +8,14 @@
     background: rgba(41, 31, 31, 0.6)
 }
 #background {
- background: url(../img/philipp-kammerer-Xm8XD2b9AUs-unsplash.jpg)no-repeat;
+ background: url(../img/gabriel-alenius-USXfF_ONUGo-unsplash.jpg)no-repeat;
  background-size: 100vw auto;
  background-position: 0% 25%;
  height: 100vh;
  width: 100vw; 
 }
 nav {
-    background: linear-gradient(rgba(41, 31, 31, 1), rgba(41, 31, 31, 0));
+    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     display: flex;
     justify-content:right;
     width: 100%;    
@@ -33,13 +33,13 @@ h2 {
     margin-left: 11.875rem;
 }
 header {
-    background: rgba(41, 31, 31, 0.5);
+    background: rgba(0, 0 ,0, 0.5);
     margin-top: 6.25rem;
     height: 170px;
     width: 700px;
     margin: auto;
     border-radius: 10px;
-    margin-top: 12.5rem;
+    margin-top: 10rem;
 }
 #meny {
     width: 125px;
@@ -53,7 +53,7 @@ header {
     color: black;
     position: absolute;
     margin-left: 2.81rem;
-    margin-top: 0.5rem;
+    margin-top: 0.4rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  #textknapp:hover {
@@ -96,7 +96,7 @@ ul li a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #bild1 {
-    background: url(../img/mathias-katz-usEpJ_BrN2k-unsplash.jpg);
+    background: url();
     background-size: 300px auto;
     grid-area: bild1;
     width: 150px;
@@ -131,11 +131,11 @@ a {
     background: url(../img/gabriel-alenius-USXfF_ONUGo-unsplash.jpg)no-repeat;
     background-size: 100vw auto;
     background-position: 20% 90%;
-    height: 200vh;
+    height: 250vh;
     width: 100%; 
 }
 .navbar {
-    background: linear-gradient(rgb(0, 0, 0, .7), rgb(0, 0, 0, 0));
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0));
     justify-content:space-evenly;
     width: 100%;    
     display: inline-block;
@@ -191,7 +191,7 @@ a {
 }
 #item1 {
     grid-area: i1;
-    background: url(../img/iulia-buta-8GNkoWJTchc-unsplash.jpg)no-repeat;
+    background: url(../img/caroline-attwood-kC9KUtSiflw-unsplash.jpg)no-repeat;
     background-size: 500px auto;
     background-position: 20% 50%;
     height: 350px;
@@ -201,7 +201,7 @@ a {
 }
 #item2 {
     grid-area: i2;
-    background: url(../img/vitor-monthay-7hkQBa2PhKY-unsplash.jpg)no-repeat;
+    background: url(../img/victoria-shes-XgFFJKSPkNk-unsplash.jpg)no-repeat;
     background-size: 500px auto;
     background-position: 20% 30%;
     height: 350px;
@@ -211,7 +211,7 @@ a {
 }
 #item3 {
     grid-area: i3;
-    background: url(../img/alexandru-bogdan-ghita-UeYkqQh4PoI-unsplash.jpg)no-repeat;
+    background: url(../img/kyle-mackie-W-M0h1FJD0M-unsplash.jpg)no-repeat;
     background-size: 500px auto;
     background-position: 20% 50%;
     height: 350px;
