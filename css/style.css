@@ -21,30 +21,30 @@
  width: 100vw; 
 }
 
-
+/* navbar */
 li, a, button{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.63rem;
     color: #edf0f1;
     text-decoration: none;
+    margin-top: 0.4rem;
 }
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 10%;
+    padding: 1.4rem 10%;
 }
 .logo {
     cursor: pointer;
-
 }
 .nav__links {
     list-style: none;
 }
 .nav__links li {
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 1.25rem;
 }
 .nav__links li a {
     transition: all 0.3s ease 0s;
@@ -53,10 +53,10 @@ header {
     color: #737474
 }
 button { 
-    padding: 9px 25px;
+    padding: 0.56rem 1.56rem;
     background-color: rgb(0, 0, 0);
     border: none;
-    border-radius: 50px;
+    border-radius: 3.125rem;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
@@ -64,24 +64,21 @@ button:hover {
     background-color: rgba(115, 116, 116, 0.8)
 }
 
-
-
-
 h1 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 7rem;
-    margin-left: 7rem;
+    text-align: center;
     margin-top: 3.125rem;
 }
 h2 {
     color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.25rem;
-    margin-left: 20rem;
+    font-size: 1.63rem;
+    text-align: center;
 }
 #mainbutton {
     background: rgba(0, 0 ,0, 0.5);
-    height: 17rem;
+    height: 20rem;
     width: 60rem;
     margin: auto;
     border-radius: 10px;
@@ -130,76 +127,10 @@ h2 {
     box-shadow: none;
     transform: translateY(0);
   }
-}
-#textknapp {
-    display: flex;
-    color: black;
-    margin: auto;
-    margin-top: 0.65rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.6rem;
-    font-weight: bolder;
-}
- #textknapp:hover {
-    color: gray;
-}
-
-#spacer {
-    margin-right: 3.125rem;
-}
-ul {
-    color: white;
-    display: flex;
-    float: right;
-}
-ul li {
-    margin: 1.875rem;
-}
-ul li a:hover {
-    color: gray;
-}
-
-.wrapper {
-    height: 300vh;
-    width: 100vw;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    "info bil1"
-    "goal bild2";
-    
-}  
-#info {
-    display: grid;
-    grid-area: info;
-    color: white;
-    margin-top: 100px;
-    justify-content: center;
-    font-size: 4.6875rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-#bild1 {
-    background: url();
-    background-size: 300px auto;
-    grid-area: bild1;
-    width: 150px;
-}
-
-
-
-
-
 
 
 
 /* Här börjar meny.html */
-
-
-
-
-
-
 
 
 #shader1 {
@@ -215,42 +146,41 @@ ul li a:hover {
     width: 100%; 
 }
 
-#li1 {
-    margin-left: 3.125rem;
+.meny {
+    display: flex;
+    justify-content: center;
 }
-
-
 .menyWrapper {
     height: 100vh;
     display: grid;
+    margin: 0 auto;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr ;
     grid-template-areas: 
     "t1 i1"
-    "t2 i2"
+    "i2 t2"
     "t3 i3";
 }
 .textItems {
-    display: inline-block;
-    background: Black;
+    display: block;
+    background: rgb(0, 0, 0);
     height: 350px;
-    width: 400px;
-    margin-top: 3.125rem;
-    color: white;
+    width: 600px;
+    color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4.0625rem;
-    background: rgb(5, 5, 5);
-    border-radius: 15px;
-    padding: 0.625rem;
-    margin-left: 40%;  
+    background: linear-gradient(217deg, rgba(93, 93, 93, 0.8), rgba(190, 190, 190, 0) 70.71%),
+            linear-gradient(127deg, rgba(155, 155, 155, 0.8), rgba(190, 190, 190, 0) 70.71%),
+            linear-gradient(336deg, rgba(253, 253, 253, 0.8), rgba(0,0,255,0) 70.71%);
+    padding: 2rem;
 }
 .menyItems {
-    margin: 0.3125rem;
-    margin-top: 3.125rem;
+    
+    
 }
 #text1 {
-    grid-area: t1;}
-
+    grid-area: t1;
+}
 #text2 {
     grid-area: t2;
 }
@@ -259,44 +189,38 @@ ul li a:hover {
 }
 #item1 {
     grid-area: i1;
-    background: url(../img/caroline-attwood-kC9KUtSiflw-unsplash.jpg)no-repeat;
-    background-size: 500px auto;
-    background-position: 20% 50%;
+    background: url(../img/caroline-attwood-kC9KUtSiflw-unsplash.jpg)center no-repeat;
+    background-size: 600px 350px;
+    background-position: 20% 30%;
     height: 350px;
-    width: 500px;
-    border-radius: 10px;
-    margin-left: 5%;
+    width: 600px;
+    margin-left: 0;
 }
 #item2 {
     grid-area: i2;
     background: url(../img/victoria-shes-XgFFJKSPkNk-unsplash.jpg)no-repeat;
-    background-size: 500px auto;
-    background-position: 20% 30%;
+    background-size: 600px auto;
+    background-position: 10% 48%;
     height: 350px;
-    width: 500px;
-    border-radius: 10px;
-    margin-left: 10%;
+    width: 600px;
+    
 }
 #item3 {
     grid-area: i3;
     background: url(../img/kyle-mackie-W-M0h1FJD0M-unsplash.jpg)no-repeat;
-    background-size: 500px auto;
+    background-size: 600px auto;
     background-position: 20% 50%;
     height: 350px;
-    width: 500px;
-    border-radius: 10px;
-    margin-left: 15%;
+    width: 600px;
 }
 p {
-    font-size: 20px;
-}
+    font-size: 2.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
 h3 {
     margin: auto;
+    font-size: 5.4rem;
 }
-
-/* Här Börjar Kontakt.html */
-
-
 
 
 /* Här börjar bord.html */
@@ -305,23 +229,28 @@ h3 {
 /* hela formen */
 .banner {
     min-height: 100vh;
-    margin-left: 27%;
     border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 12rem;
 }
 .card-img {
     background: url(../img/marco-lastella-V9EKaWLK4Pw-unsplash.jpg)center/cover no-repeat;
 }
 .card-container {
     display: grid;
-    grid-template-columns: 420px 420px;
+    grid-template-columns: 40rem 40rem;
 }
 .banner h2 {
-    padding-bottom: 40px;
-    margin-bottom: 20px;
+    padding-bottom: 2.5rem;
+    margin-bottom: 1.25rem;
 }
 .card-content {
     background: #fff;
-    height: 500px;
+    height: 600px;
 }
 /* rubrik för reservation */
 .card-content h3 {
