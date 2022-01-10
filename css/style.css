@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Montserrat&family=Zen+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 #shader {
     height: 100%;
     width: 100vw;
-    background: rgba(41, 31, 31, 0.6)
+    background: rgba(0, 0, 0, 0.7)
 }
 #background {
  background: url(../img/gabriel-alenius-USXfF_ONUGo-unsplash.jpg)no-repeat;
@@ -14,47 +20,125 @@
  height: 100vh;
  width: 100vw; 
 }
-nav {
-    background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
-    display: flex;
-    justify-content:right;
-    width: 100%;    
+
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #edf0f1;
+    text-decoration: none;
 }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo {
+    cursor: pointer;
+
+}
+.nav__links {
+    list-style: none;
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav__links li a:hover {
+    color: #737474
+}
+button { 
+    padding: 9px 25px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(115, 116, 116, 0.8)
+}
+
+
+
+
 h1 {
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 3.75rem;
-    margin-left: 8.75rem;
+    font-size: 7rem;
+    margin-left: 7rem;
     margin-top: 3.125rem;
 }
 h2 {
     color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.25rem;
-    margin-left: 11.875rem;
+    margin-left: 20rem;
 }
-header {
+#mainbutton {
     background: rgba(0, 0 ,0, 0.5);
-    margin-top: 6.25rem;
-    height: 170px;
-    width: 700px;
+    height: 17rem;
+    width: 60rem;
     margin: auto;
     border-radius: 10px;
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
-#meny {
-    width: 125px;
-    height: 35px;
-    margin-left: 17.1875rem;
-    border-radius: 10px;
-    background: white;
-    margin-top: 0.625rem;
+.button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+    will-change: transform;
+    margin-left: 14rem;
+    margin-top: 1rem;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
 }
 #textknapp {
+    display: flex;
     color: black;
-    position: absolute;
-    margin-left: 2.81rem;
-    margin-top: 0.4rem;
+    margin: auto;
+    margin-top: 0.65rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    font-weight: bolder;
 }
  #textknapp:hover {
     color: gray;
@@ -101,11 +185,7 @@ ul li a:hover {
     grid-area: bild1;
     width: 150px;
 }
-a {
-    text-decoration: none;
-    color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
 
 
 
@@ -125,7 +205,7 @@ a {
 #shader1 {
     height: 100%;
     width: 100%;
-    background: rgba(41, 31, 31, 0.3)}
+    background: rgba(0,0,0, 0.7)}
 
 #menyBackground {
     background: url(../img/gabriel-alenius-USXfF_ONUGo-unsplash.jpg)no-repeat;
@@ -134,15 +214,7 @@ a {
     height: 250vh;
     width: 100%; 
 }
-.navbar {
-    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0));
-    justify-content:space-evenly;
-    width: 100%;    
-    display: inline-block;
-}
-.navbar:hover {
-    color:black;
-}
+
 #li1 {
     margin-left: 3.125rem;
 }
@@ -159,35 +231,31 @@ a {
     "t3 i3";
 }
 .textItems {
+    display: inline-block;
     background: Black;
     height: 350px;
-    margin: 0.3125rem;
-    margin-left: 34%;
+    width: 400px;
     margin-top: 3.125rem;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4.0625rem;
-    background: linear-gradient(rgb(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
-    border-radius: 10px;
+    background: rgb(5, 5, 5);
+    border-radius: 15px;
     padding: 0.625rem;
+    margin-left: 40%;  
 }
 .menyItems {
-    height: 350px;
-    width: 500px;
     margin: 0.3125rem;
     margin-top: 3.125rem;
 }
 #text1 {
-    grid-area: t1;
-    width: 300px;
-}
+    grid-area: t1;}
+
 #text2 {
     grid-area: t2;
-    width: 350px;
 }
 #text3 {
     grid-area: t3;
-    width: 400px;
 }
 #item1 {
     grid-area: i1;
@@ -227,6 +295,76 @@ h3 {
 }
 
 /* Här Börjar Kontakt.html */
+
+
+
+
+/* Här börjar bord.html */
+
+
+/* hela formen */
+.banner {
+    min-height: 100vh;
+    margin-left: 27%;
+    border-radius: 10px;
+}
+.card-img {
+    background: url(../img/marco-lastella-V9EKaWLK4Pw-unsplash.jpg)center/cover no-repeat;
+}
+.card-container {
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.banner h2 {
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content {
+    background: #fff;
+    height: 500px;
+}
+/* rubrik för reservation */
+.card-content h3 {
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 3rem;
+    font-weight: 500;
+}
+.form-row {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+/* border för formen */
+form select, form input {
+    display: block;
+    width: 100%;
+    margin: 1rem;
+    padding: 5px;
+    font-size: 1.25rem;
+    /* font-family: #; */
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-weight: 300;
+}
+/* text för intput */
+form input[type = text], form input [type = number ],form input::placeholder{
+    color: #9a9a9a
+}   
+
+/* bokningsknappen */
+form input[type = submit]{
+    color: #fff;
+    background: rgb(0, 0, 0);
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover {
+    opacity: 0.9;
+}
 
 
 

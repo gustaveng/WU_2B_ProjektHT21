@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Reservation Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    
+<div id="menyBackground">
+    <div id="shader1">
+
+        <body>
+            <header>
+                <img class="logo" src="img/PLACEHOLDER.PNG" alt="logo">
+                <nav>
+                    <div id="spacer">
+                        <ul type="none" class="nav__links">
+                            <li><a href="index.html">Kött på riktigt</a></li>
+                            <li><a href="bord.html">Boka Bord</a></li>
+
+                        </ul>
+                    </div>
+                </nav>
+                <a class="cta" href="#"><button>KONTAKTA OSS</button></a>
+            </header>
+
+            <section class="banner">
+
+                <div class="card-container">
+                    <div class="card-img">
+                        <!-- image here -->
+                    </div>
+
+                    <div class="card-content">
+                        <h3>Boka Bord</h3>
+                        <form>
+                            <div class="form-row">
+                                <select name="days">
+                                    <option value="day-select">Välj dag</option>
+                                    <option value="sunday">Söndag</option>
+                                    <option value="monday">Måndag</option>
+                                    <option value="tuesday">Tisdag</option>
+                                    <option value="wednesday">Onsdag</option>
+                                    <option value="thursday">Torsdag</option>
+                                    <option value="friday">Fredag</option>
+                                    <option value="saturday">Lördag</option>
+                                </select>
+
+                                <select name="hours">
+                                    <option value="hour-select">Välj tid</option>
+                                    <option value="10">10:00</option>
+                                    <option value="10">12:00</option>
+                                    <option value="10">14:00</option>
+                                    <option value="10">16:00</option>
+                                    <option value="10">18:00</option>
+                                    <option value="10">20:00</option>
+                                    <option value="10">22:00</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <input type="text" placeholder="Namn">
+                                <input type="text" placeholder="Telefon nummer">
+                            </div>
+
+                            <div class="form-row">
+                                <input type="number" placeholder="Antal personer" min="1">
+                                <input type="submit" value="BOKA BORD">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+    </div id="menyBackground">
+</div id="shader1">
 </body>
+
 </html>
