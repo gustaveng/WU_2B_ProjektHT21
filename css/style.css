@@ -78,8 +78,8 @@ h2 {
 }
 #mainbutton {
     background: rgba(0, 0 ,0, 0.5);
-    height: 20rem;
-    width: 60rem;
+    height: 30vh;
+    width: 45vw;
     margin: auto;
     border-radius: 10px;
     margin-top: 12rem;
@@ -110,7 +110,7 @@ h2 {
     touch-action: manipulation;
     width: 50%;
     will-change: transform;
-    margin-left: 14rem;
+    margin-left: 11vw;
     margin-top: 1rem;
   }
   
@@ -164,8 +164,8 @@ h2 {
 .textItems {
     display: block;
     background: rgb(0, 0, 0);
-    height: 350px;
-    width: 600px;
+    height: 42vh;
+    width: 40vw;
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 4.0625rem;
@@ -190,28 +190,29 @@ h2 {
 #item1 {
     grid-area: i1;
     background: url(../img/caroline-attwood-kC9KUtSiflw-unsplash.jpg)center no-repeat;
-    background-size: 600px 350px;
+    background-size: cover;
     background-position: 20% 30%;
-    height: 350px;
-    width: 600px;
+    height: 42vh;
+    width: 40vw;
     margin-left: 0;
+    
 }
 #item2 {
     grid-area: i2;
     background: url(../img/victoria-shes-XgFFJKSPkNk-unsplash.jpg)no-repeat;
-    background-size: 600px auto;
-    background-position: 10% 48%;
-    height: 350px;
-    width: 600px;
+    background-size: cover;
+    background-position: center;
+    height: 42vh;
+    width: 40vw;
     
 }
 #item3 {
     grid-area: i3;
     background: url(../img/kyle-mackie-W-M0h1FJD0M-unsplash.jpg)no-repeat;
-    background-size: 600px auto;
-    background-position: 20% 50%;
-    height: 350px;
-    width: 600px;
+    background-size: cover;
+    background-position: center;
+    height: 42vh;
+    width: 40vw;
 }
 p {
     font-size: 2.3rem;
