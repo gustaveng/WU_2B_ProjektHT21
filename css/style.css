@@ -273,16 +273,15 @@ form select, form input {
     margin: 1rem;
     padding: 5px;
     font-size: 1.25rem;
-    /* font-family: #; */
-    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    outline: none;
     border: none;
     border-bottom: 1px solid black;
     font-weight: 300;
 }
 /* text för intput */
 form input[type = text], form input [type = number ],form input::placeholder{
-    color: #9a9a9a
-}   
+    color: #0f0f0f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}   
 
 /* bokningsknappen */
 form input[type = submit]{
